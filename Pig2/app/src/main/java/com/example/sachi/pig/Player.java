@@ -27,7 +27,7 @@ public class Player {
             score += value;
             totalScore += value;
 
-            if (totalScore >= 10)
+            if (totalScore >= 100)
                 return 2;
             return 0;
         }
