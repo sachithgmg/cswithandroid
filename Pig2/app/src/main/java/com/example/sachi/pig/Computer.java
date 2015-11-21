@@ -24,7 +24,7 @@ public class Computer {
             hit *= turn;
             return 1;
         }
-        if(totalScore >= 10){
+        if(totalScore >= 100){
             return 2;
         }
         else if(value == 1 )
